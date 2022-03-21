@@ -1,0 +1,32 @@
+/*Header*/
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 1.3em;
+  margin: 0px;
+}
+
+.logo .icon {
+  margin-right: 1rem;
+}
+
+.header-main .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-main button {
+  border: none;
+  background-color: transparent;
+}
+
+.header-main {
+  background-color: white;
+  padding: 1rem;
+}

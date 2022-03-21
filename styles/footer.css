@@ -1,0 +1,21 @@
+/* Footer */
+
+.footer-main {
+  background-color: white;
+  padding: 1rem 0px;
+}
+
+.footer-main .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-main p {
+  margin: 0px;
+}
+
+.footer-main .icon {
+  margin-left: 1rem;
+}

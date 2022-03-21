@@ -1,0 +1,75 @@
+/* Common */
+.nav-horizontal {
+  display: flex;
+  align-items: center;
+}
+
+.nav-horizontal a {
+  color: grey;
+  padding: 0px 0.5rem;
+  text-decoration: none;
+}
+
+.category,
+.button {
+  display: inline-block;
+  background-color: #4c54a0;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  padding: 0.3rem;
+  font-size: 14px;
+}
+
+.button {
+  font-size: 100%;
+  border: none;
+  padding: 0.8rem 1rem;
+}
+
+.icon {
+  display: inline-block;
+  height: 3vw;
+}
+
+.icon img {
+  height: 50%;
+}
+
+.wrapper {
+  max-width: 1100px;
+  padding: 0px 4vw;
+  margin: 0px auto;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: white;
+}
+
+.card-info {
+  padding: 1rem;
+}
+
+.card header div {
+  order: -1;
+  line-height: 1.4;
+  display: flex;
+  justify-content: space-between;
+}
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.card header {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-big {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 2rem 0px;
+}

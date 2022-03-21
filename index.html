@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="an article" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <title>Blog | Landing</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap"
+    />
+    <link rel="stylesheet" href="styles/_main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header-main">
+        <div class="wrapper">
+          <section class="logo">
+            <h1 id="title">Web Dev</h1>
+          </section>
+          <nav>
+            <ul class="nav-horizontal">
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="#">Categories</a></li>
+              <li><a href="#">Contact</a></li>
+              <li>
+                <button>
+                  <img src="assets/icons/search.svg" />
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="wrapper">
+        <article class="card card-big">
+          <figure>
+            <img src="assets/images/article-big.jpg" alt="article image" />
+          </figure>
+          <div class="card-info">
+            <header>
+              <h2>Web Storage</h2>
+              <div>
+                <a class="category" href="#">Storage</a>
+                <time datetime="2022-3-19">2022-3-19 </time>
+              </div>
+            </header>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum,
+              qui ab consequuntur sint in minima...
+            </p>
+            <a href="/article.html" aria-label="lorem ipsum dolor sit">
+              Read More &Longrightarrow;
+            </a>
+          </div>
+        </article>
+
+        <div class="landing-content">
+          <section class="card-list">
+            <header class="card-list-header">
+              <h2>All the latest articles</h2>
+            </header>
+
+            <article class="card">
+              <figure>
+                <img src="assets/images/01-article.jpg" alt="article image" />
+              </figure>
+              <div class="card-info">
+                <header>
+                  <h3>HTTPS</h3>
+                  <div>
+                    <a class="category" href="#">Security</a>
+                    <time datetime="2022-3-19">2022-3-19 </time>
+                  </div>
+                </header>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+                </p>
+                <a href="/article.html" aria-label="lorem ipsum dolor sit">
+                  Read More &Longrightarrow;
+                </a>
+              </div>
+            </article>
+
+            <article class="card">
+              <figure>
+                <img src="assets/images/02-article.jpg" alt="article image" />
+              </figure>
+              <div class="card-info">
+                <header>
+                  <h3>Web Performance</h3>
+                  <div>
+                    <a class="category" href="#">Performance</a>
+                    <time datetime="2022-3-19">2022-3-19 </time>
+                  </div>
+                </header>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+                </p>
+                <a href="/article.html" aria-label="lorem ipsum dolor sit">
+                  Read More &Longrightarrow;
+                </a>
+              </div>
+            </article>
+
+            <article class="card">
+              <figure>
+                <img src="assets/images/03-article.jpg" alt="article image" />
+              </figure>
+              <div class="card-info">
+                <header>
+                  <h3>Accessibility</h3>
+                  <div>
+                    <a class="category" href="#">A11y</a>
+                    <time datetime="2022-3-19">2022-3-19 </time>
+                  </div>
+                </header>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+                </p>
+                <a href="/article.html" aria-label="lorem ipsum dolor sit">
+                  Read More &Longrightarrow;
+                </a>
+              </div>
+            </article>
+
+            <article class="card">
+              <figure>
+                <img src="assets/images/04-article.jpg" alt="article image" />
+              </figure>
+              <div class="card-info">
+                <header>
+                  <h3>Progressive Web Apps</h3>
+                  <div>
+                    <a class="category" href="#">PWA</a>
+                    <time datetime="2022-3-19">2022-3-19 </time>
+                  </div>
+                </header>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+                </p>
+                <a href="/article.html" aria-label="lorem ipsum dolor sit">
+                  Read More &Longrightarrow;
+                </a>
+              </div>
+            </article>
+            <button class="button load-more">Load More Articles</button>
+          </section>
+          <!--End of article links-->
+
+          <aside>
+            <article class="newsletter">
+              <header>
+                <h3>Our News letter</h3>
+              </header>
+              <p>Subscribe to our newsletter</p>
+              <form>
+                <input type="email" name="email" id="email" />
+                <button class="button" type="submit">Subscribe</button>
+              </form>
+              <p class="text-small">No spam just good things</p>
+            </article>
+          </aside>
+        </div>
+      </main>
+
+      <footer class="footer-main">
+        <div class="wrapper">
+          <p>&copy; Copyright 2022 Web Dev</p>
+          <nav class="nav-horizontal">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms and Conditions</a>
+          </nav>
+          <section>
+            <a class="icon" href="#" aria-label=" Follow Us On Twitter">
+              <img src="assets/icons/twitter.svg" alt="twitter icon" />
+            </a>
+            <a class="icon" href="#" aria-label=" Follow Us On Instagram">
+              <img src="assets/icons/instagram.svg" alt="instagram icon" />
+            </a>
+            <a class="icon" href="#" aria-label=" Follow Us On Facebook">
+              <img src="assets/icons/facebook.svg" alt="facebook icon" />
+            </a>
+          </section>
+        </div>
+      </footer>
+    </div>
+    <!--Container-->
+  </body>
+</html>

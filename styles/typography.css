@@ -1,0 +1,49 @@
+/* Fonts and Typography */
+
+body {
+  background-color: #eaeaeb;
+  font-family: "Lato", sans-serif;
+  color: #0d0f20;
+}
+
+#title,
+nav {
+  font-family: "Roboto", sans-serif;
+  font-weight: 1000;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto", sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+h1,
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+p {
+  margin-bottom: 1.6rem;
+  line-height: 1.4;
+}
+
+a {
+  color: #4c54a0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

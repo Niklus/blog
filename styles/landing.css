@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 1.5rem;
-  margin-bottom: 4rem;
+  margin-bottom: 1.4rem;
 }
 
 .landing-content aside {
@@ -23,14 +23,8 @@
   border-bottom: #4c54a0 3px solid;
 }
 
-.card-list .button {
-  grid-column: -2 / -1;
-  align-self: end;
-  justify-self: center;
-  margin-top: 4rem;
-}
-
-.newsletter {
+.newsletter,
+.hidden-letter {
   padding: 1rem;
   color: white;
   text-align: center;
@@ -38,21 +32,42 @@
   background-size: cover;
 }
 
-.newsletter .button {
+.newsletter {
+  margin-top: 3px;
+}
+
+.newsletter .button,
+.hidden-letter .button {
   background-color: #0d0f20;
 }
 
-.newsletter form {
+.newsletter form,
+.hidden-letter form {
   display: flex;
   margin-bottom: 1rem;
 }
 
-.newsletter input {
+.newsletter input,
+.hidden-letter input {
   width: 100%;
   border: none;
   border-radius: 4px 0px 0px 4px;
 }
 
-.newsletter .text-small {
+.newsletter .text-small,
+.hidden-letter .text-small {
   font-size: 0.8rem;
+}
+
+.hidden-letter {
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-top: -70px;
+  display: none;
+}
+
+.load-more {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.4rem;
 }

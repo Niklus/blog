@@ -1,4 +1,9 @@
 /* Common */
+
+* {
+  box-sizing: border-box;
+}
+
 .nav-horizontal {
   display: flex;
   align-items: center;
@@ -72,4 +77,8 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   margin: 2rem 0px;
+}
+
+#hidden-card {
+  display: none;
 }

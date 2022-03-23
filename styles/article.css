@@ -52,3 +52,26 @@
 .article-header h1 {
   color: white;
 }
+
+.article-body figcaption {
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.article-body h2,
+h4 {
+  color: #4c54a0;
+}
+
+.article-body blockquote {
+  font-style: italic;
+  color: rgb(52, 52, 102);
+}
+
+.article-body p {
+  margin-top: -10px;
+}
+
+em {
+  color: brown;
+}
